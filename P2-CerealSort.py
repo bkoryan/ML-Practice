@@ -2,6 +2,8 @@
 #  Burak Koryan | burak@koryan.ca | http://koryan.ca
 #  Project : Classification of different brands of cereals using k-NN classifier in Python
 #  Date : May 5 2018
+#  References : http://scikit-learn.org/stable/modules/neighbors.html for info on k-NN 
+#               and Kaggle.com for the dataset
 ###########################################################################################
 
 import numpy as np
