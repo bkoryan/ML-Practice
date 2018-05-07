@@ -41,7 +41,7 @@ cmap_light = ListedColormap(['#FFAAAA', '#AAFFAA', '#AAAAFF'])
 cmap_bold = ListedColormap(['#FF0000', '#00FF00', '#0000FF'])
 
 for weights in ['uniform', 'distance']:
-    # we create an instance of Neighbours Cylassifier and fit the data.
+    # we create an instance of Neighbours Classifier and fit the data.
     clf = neighbors.KNeighborsClassifier(n_neighbors, weights=weights)
     clf.fit(X, y_trans)
 
